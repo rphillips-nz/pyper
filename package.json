@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "fast-glob": "^3.2.5",
+    "lookpath": "^1.2.1",
     "sharp": "^0.28.2"
   }
 }
