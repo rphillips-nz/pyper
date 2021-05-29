@@ -24,7 +24,7 @@
 
 ## Usage
 
-```sh
+```
 Usage: pyper [options]
 
 Options:
@@ -36,7 +36,7 @@ Options:
 Create a `.pyper.json` file in the folder you want to run pyper from.
 Here's one that creates three different versions of each of the images in the `images` folder.
 
-```
+```json
 [
   {
     "input": "images/*",
