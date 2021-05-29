@@ -1,20 +1,27 @@
 {
   "name": "pyper",
-  "version": "0.0.1",
-  "description": "Resizes images",
+  "version": "0.0.0",
+  "description": "The uncomplicated image resizing pipeline.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "release": "np"
   },
-  "bin": {
-    "pyper": "./cli.js"
-  },
+  "bin": "./lib/cli.js",
+  "files": [
+    "/lib/",
+    "/index.js"
+  ],
   "author": "Ross Phillips",
   "license": "MIT",
   "dependencies": {
     "commander": "^7.2.0",
     "fast-glob": "^3.2.5",
     "lookpath": "^1.2.1",
+    "pkginfo": "^0.4.1",
     "sharp": "^0.28.2"
+  },
+  "devDependencies": {
+    "np": "^7.5.0"
   }
 }
