@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/rphillips-nz/exif-reader/main/sandpiper.svg" alt="Unrelated image of a sandpiper" width="380"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/rphillips-nz/pyper/main/sandpiper.svg" alt="Unrelated image of a sandpiper" width="380"></p>
 <h1 align="center">Pyper</h1>
 <p align="center">The uncomplicated image resizing pipeline.</p>
 
