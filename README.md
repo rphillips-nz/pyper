@@ -29,30 +29,30 @@ Here's one that creates three different versions of each of the images in the `i
 
 ```
 [
-	{
-		"input": "images/*",
-		"outputs": [
-			{
-				"path": "output/{basepath}/{filename}-35{extension}",
-				"width": 35,
-				"height": 35
-			},
-			{
-				"path": "output/{basepath}/{filename}-100.webp",
-				"format": "webp",
-				"width": 100,
-				"height": 100
-			},
-			{
-				"path": "output/{basepath}/{filename}-100{extension}",
-				"width": 100,
-				"height": 100,
-				"options": {
-					"quality": 10
-				}
-			}
-		]
-	}
+  {
+    "input": "images/*",
+    "outputs": [
+      {
+        "path": "output/{basepath}/{filename}-35{extension}",
+        "width": 35,
+        "height": 35
+      },
+      {
+        "path": "output/{basepath}/{filename}-100.webp",
+        "format": "webp",
+        "width": 100,
+        "height": 100
+      },
+      {
+        "path": "output/{basepath}/{filename}-100{extension}",
+        "width": 100,
+        "height": 100,
+        "options": {
+          "quality": 10
+        }
+      }
+    ]
+  }
 ]
 ```
 
