@@ -9,8 +9,8 @@
   },
   "bin": "./lib/cli.js",
   "files": [
-    "/lib/",
-    "/index.js"
+    "lib/**/*",
+    "index.js"
   ],
   "author": "Ross Phillips",
   "license": "MIT",

@@ -24,6 +24,15 @@
 
 ## Usage
 
+```sh
+Usage: pyper [options]
+
+Options:
+  -v, --version  output the current version
+  --verbose      output debugging
+  -h, --help     display help for command
+```
+
 Create a `.pyper.json` file in the folder you want to run pyper from.
 Here's one that creates three different versions of each of the images in the `images` folder.
 
