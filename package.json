@@ -12,6 +12,7 @@
   "author": "Ross Phillips",
   "license": "MIT",
   "dependencies": {
+    "commander": "^7.2.0",
     "fast-glob": "^3.2.5",
     "lookpath": "^1.2.1",
     "sharp": "^0.28.2"
