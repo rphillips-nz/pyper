@@ -1,6 +1,6 @@
 {
   "name": "pyper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The uncomplicated image resizing pipeline.",
   "main": "index.js",
   "scripts": {
