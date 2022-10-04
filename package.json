@@ -15,13 +15,13 @@
   "author": "Ross Phillips",
   "license": "MIT",
   "dependencies": {
-    "commander": "^7.2.0",
-    "fast-glob": "^3.2.5",
-    "lookpath": "^1.2.1",
+    "commander": "^9.4.1",
+    "fast-glob": "^3.2.12",
+    "lookpath": "^1.2.2",
     "pkginfo": "^0.4.1",
-    "sharp": "^0.28.2"
+    "sharp": "^0.31.1"
   },
   "devDependencies": {
-    "np": "^7.5.0"
+    "np": "^7.6.2"
   }
 }
